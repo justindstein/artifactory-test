@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 22
+Implementation-Title: artifacttest
+Implementation-Version: 0.0.1-SNAPSHOT
+Main-Class: com.github.justindstein.Application
+Created-By: Maven Integration for Eclipse
+
