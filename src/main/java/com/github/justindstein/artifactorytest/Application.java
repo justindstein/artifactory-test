@@ -1,4 +1,4 @@
-package com.github.justindstein;
+package com.github.justindstein.artifactorytest;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
@@ -18,10 +18,9 @@ public class Application {
             runApp(args);
         } catch (Exception e) {
             if(e.getClass().getName().contains("SilentExitException")) {
-                // https://docs.spring.io/spring-boot/docs/current/reference/html/using-spring-boot.html#using-boot-devtools
-                LOGGER.debug("Spring is restarting the main thread - See spring-boot-devtools");
+            	;
             } else {
-                LOGGER.error("Application crashed!", e);
+            	;
             }
         }
     }
